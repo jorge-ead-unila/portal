@@ -1012,3 +1012,7 @@ preloader
     height: 580px !important;
     width: 820px !important;
 }
+
+.coursiva-txt{
+    font-style: italic;
+}
