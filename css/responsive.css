@@ -1,6 +1,8 @@
 /* Medium Layout: 1280px. */
 
-@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+        
+}
 
 
 /* Tablet Layout: 768px. */
@@ -31,6 +33,10 @@
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between;
+    }
+    .youtube-screen{
+        width: auto !important;
+        height: auto !important;
     }
 }
 
@@ -91,6 +97,11 @@
     .mainmenu-area .logo {
         margin-left: 15px;
     }
+
+    .youtube-screen{
+        width: auto !important;
+        height: auto !important;
+    }
 }
 
 
@@ -98,10 +109,7 @@
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {}
 
-.youtube-screen{
-    width: auto;
-    height: auto;
-}
+
 
 #recientes{
     display: none;

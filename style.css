@@ -1000,3 +1000,15 @@ preloader
 }
 
 
+.modal{
+   padding-top: 150px;
+}
+
+.modal-title{
+    text-align: center;
+}
+
+.youtube-screen{
+    height: 580px !important;
+    width: 820px !important;
+}
