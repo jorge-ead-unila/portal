@@ -47,7 +47,7 @@ function persistir_database($name, $email, $subject, $message, $seccion, $telefo
     /*
     Conexion BD
     */
-    $usuario = "root";
+    $usuario = "portal";
     $password = "PedroPiedra";
     $servidor = "localhost";
     $database = "contacto_portal";
