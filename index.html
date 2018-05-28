@@ -712,8 +712,12 @@
                                 <input type="text" id="form-name" name="form-name" placeholder="Tu nombre" class="form-control" required="required">
                                 <input type="email" id="form-email" name="form-email" class="form-control" placeholder="Tu e-mail" required="required">
                             </div>
+                            <span id="err-numero-telefonico" style="color: red; display: none;">Por favor coloque un formato sólo de números</span>
+                            <input type="text" id="form-telefono" name="form-telefono" class="form-control" placeholder="Número telefónico">
+                            <span id="err-asunto" style="color: red; display: none;">Por favor coloque un asunto con letras y/o números</span>
                             <input type="text" id="form-subject" name="form-subject" class="form-control" placeholder="Asunto">
-                            <textarea name="message" id="form-message" name="form-message" rows="5" class="form-control" placeholder="Tu mensaje" required="required"></textarea>
+                            <textarea id="form-message" name="form-message" rows="5" class="form-control" placeholder="Tu mensaje (máximo 1500 caracteres)" required="required"></textarea>
+                            <input type="hidden" name="form-seccion" id="form-seccion" value="portal">
                             <button type="sibmit" class="button">Enviar</button>
                         </form>
                     </div>
